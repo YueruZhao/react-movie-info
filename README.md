@@ -1,11 +1,11 @@
 ## React Movie information APP
 
-## Website: https://yueruzhao.github.io/react-movie-info/#/
+A front-end interface using React that consumes TMDB (https://www.themoviedb.org/documentation/api) and OMDB (http://www.omdbapi.com/) API
 
-## A front-end interface using React that consumes TMDB (https://www.themoviedb.org/documentation/api) and OMDB (http://www.omdbapi.com/) API
+## Website
+https://yueruzhao.github.io/react-movie-info/#/
 
-
-## Project demo on Youtube: 
+## Project demo on Youtube
 https://www.youtube.com/watch?v=si1MHxqnUUo&t=7s
 
 
