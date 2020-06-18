@@ -2,8 +2,6 @@ import {SEARCH_MOVIE, FETCH_MOVIES, FETCH_MOVIE,LOADING, SORT_BY_TITLE,SORT_BY_Y
 import {APIKey, themoviedbAPIKey} from '../APIKey';
 import axios from 'axios';
 
-
-
 export const searchMovie=text=>dispatch=>{
 dispatch ({
     type: SEARCH_MOVIE,
