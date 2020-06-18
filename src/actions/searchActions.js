@@ -11,14 +11,6 @@ dispatch ({
 });
 };
 
-// export const fetchTopRatedMovie=text =>dispatch=>{
-// axios.get(`https://api.themoviedb.org/3/movie/top_rated?api_key=${themoviedbAPIKey}&language=en-US&page=${text}`)
-// .then(response=>dispatch({
-//     type:FETCH_TOPDATEDMOVIES,
-//     payload: response.data
-// })).catch(err => console.log(err));
-// };
-
 export const fetchGenre=()=>dispatch=>{
     axios.get(`https://api.themoviedb.org/3/genre/movie/list?api_key=${themoviedbAPIKey}&language=en-US`)
     .then(response=>dispatch({
@@ -28,7 +20,7 @@ export const fetchGenre=()=>dispatch=>{
 };
 
 export const fetchMovies =text =>dispatch=>{
-axios.get(`http://www.omdbapi.com/?apikey=${APIKey}&s=${text}`)
+axios.get(`https://www.omdbapi.com/?apikey=${APIKey}&s=${text}`)
 .then(response=>dispatch({
     type:FETCH_MOVIES,
     payload: response.data
@@ -37,17 +29,12 @@ axios.get(`http://www.omdbapi.com/?apikey=${APIKey}&s=${text}`)
 
 export const fetchMovie = id => dispatch =>{
 axios
-.get(`http://www.omdbapi.com/?apikey=${APIKey}&i=${id}`)
+.get(`https://www.omdbapi.com/?apikey=${APIKey}&i=${id}`)
 .then(response=>dispatch({
     type:FETCH_MOVIE,
     payload: response.data
 })).catch(err => console.log(err));
 };
-
-// export const fetchTopRatedMovie=()=>({
-// type: FETCH_TOPDATEDMOVIES,
-// // payload
-// });
 
 export const setLoading =() =>{
     return {
