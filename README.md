@@ -1,3 +1,21 @@
+## React Movie information APP
+
+A front-end interface using React that consumes TMDB (https://www.themoviedb.org/documentation/api) and OMDB (http://www.omdbapi.com/) API
+
+## Website
+https://yueruzhao.github.io/react-movie-info/#/
+
+## Project demo on Youtube
+https://www.youtube.com/watch?v=si1MHxqnUUo&t=7s
+
+
+## Reference:
+https://blog.soshace.com/filtering-sorting-and-pagination-advanced-filtering-with-react-and-redux/
+
+https://www.youtube.com/playlist?list=PLG3RxIUKLJlbDDGeeoUCkinS2DUybp_1o
+
+https://www.youtube.com/watch?v=TxqqrNfgTto&t=3s
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
